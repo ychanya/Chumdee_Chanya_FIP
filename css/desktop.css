@@ -1,0 +1,321 @@
+ /* ---General Styles--- */
+
+#desktop-outline {
+    outline: 20px solid #333;
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+
+ html{
+   scroll-behavior: smooth;
+ }
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ p {
+   font-size: 16px;
+ }
+ 
+/* ---Nav Bar--- */
+header.navbar {
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+}
+
+nav.navbar-container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 25px 20px;
+}
+
+.logo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px
+}
+
+.logo span {
+   font-size: 32px;
+   color:grey;
+}
+
+.logo-icon {
+   width: 377px;
+}
+
+.nav-links {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin-left: 0;
+   padding: 0;
+}
+
+.nav-links li {
+   margin: 0 12px;
+}
+
+.nav-links a {
+   font-size: 16px;
+   color: #555;
+   transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+   color: #000;
+}
+
+.book-now {
+   font: inherit;
+   width: 190px;
+   padding: 10px 40px;
+   background-color: #9a2018;
+   color: #fff;
+   font-style: italic;
+   border: none;
+   transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+   background-color:rgb(196, 28, 28);
+}
+
+/* ---Sub heading box--- */
+
+#hero-heading-box {
+   align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+   background: #fff;
+   padding: 10px 15px;
+}
+
+.hero-img-h2 span, .hero-img-h3 span {
+   color: #9a2018;
+   font-size: 14px;
+}
+
+.line-separator {
+   margin-top: 40px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+ /* ---Main Hero Image--- */
+ 
+ #hero {
+    background: url(../images/desk_sp_hero-01.jpg) no-repeat;
+    height: 450px;
+ }
+ 
+
+ /* ---Spa Service--- */
+ #spa-service figure{
+   margin: 0px;
+ }
+
+ #spa-feature-hero-con {
+   background: url(../images/desk_sp_sect-01.jpg) no-repeat;
+   height: 450px;
+ }
+ 
+ #spa-feature-hero-heading-box {
+    align-self: end;
+ }
+
+ .gallery-sect{
+   margin-left: 20px;
+ }
+
+ .blank-card{
+   background-color: #505050;
+   color: #fff;
+   width: 377px;
+   height: 377px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ /* ---Shortcut-Nav--- */
+
+ #spa-service-nav ul {
+    list-style: none;
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+ }
+ #spa-service-nav ul li {
+    margin-bottom: 15px;
+
+ }
+ 
+ #spa-service-nav ul li a {
+   padding: 5px;
+ }
+ 
+ #spa-service-nav ul li a.selected {
+    border-bottom: #9a2018 solid 5px;
+ }
+ 
+ /* ---Spa Feature--- */
+
+ #spa-feature-hero-con {
+    background: url(../images/desk_sp_sect-01.jpg) no-repeat;
+    height: 450px;
+ }
+ 
+ #spa-feature-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #spa-feature-text {
+    margin-bottom: 20px;
+ }
+ 
+#spa-feature-con{
+   margin-bottom: 80px;
+}
+
+.text-title{
+    color: #9a2018;
+ }
+
+/* ---Policy and Information--- */
+#policy-hero-con {
+    background: url(../images/desk_sp_sect-02.jpg) no-repeat;
+    height: 450px;
+}
+ 
+ #policy-hero-heading-box {
+    align-self: end;
+ }
+
+ #policy-text-column2{
+    margin-top: 10px;
+ }
+ 
+ #policy-column2 {
+    font-style: italic;
+ }
+
+.policy-title{
+    color: #9a2018;
+ }
+
+#policy-con{
+   margin-bottom: 60px;
+  }
+
+/* ---Testmonail--- */
+
+#testimonail{
+    background-color: #EEEEEE;
+    width: 1200px;
+    height: 306px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.testimonail-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.align-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.testimonail-text{
+    font-size: 12px;
+}
+
+#testimonail img {
+   width: 130px;
+   height: 140px;
+}
+
+/* ---footer--- */
+#footer-hero {
+   background-image: url(../images/footer-mt.jpg);
+	background-repeat: no-repeat;
+   background-size: cover;
+   color: #fff;
+   font-size: 12px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+   width: 100%;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 16px;
+}
+
+#price-policy{
+   font-size: 14px;
+   text-align: center;
+   line-height: 26px;
+}
+
+#footer-contact-info{
+   padding-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.book-now-bottom {
+   font: inherit;
+   background-color: #9a2018;
+   color: #fff;
+   width: 271px;
+   height: 117px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   transition: background-color 500ms linear;
+   border: none;
+   font-size: 18px;
+   font-style: italic;
+}
+
+.book-now-bottom:hover {
+   background-color: rgb(196, 28, 28);
+}
