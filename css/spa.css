@@ -1,0 +1,195 @@
+ /* ---Main Hero Image--- */
+ 
+ #hero {
+    background: url(../images/mob_sp_hero-01.jpg) no-repeat;
+    height: 200px;
+ }
+ 
+ #hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+ /* ---Spa Service--- */
+
+ #spa-feature-hero-con {
+   background: url(../images/why-choose-us-hero.jpg) no-repeat;
+   height: 195px;
+ }
+ 
+ #spa-feature-hero-heading-box {
+    align-self: end;
+ }
+ 
+ .spa-service-image {
+    float: left;
+    margin-right: 20px;
+ }
+ 
+ .spa-service-image-con h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+ }
+ 
+ .spa-service-image-con p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 20px;
+ }
+ 
+ .spa-service-image-con a {
+    color: #707070;
+    font-size: 12px;
+ }
+ 
+ #spa-service-bottom-nav {
+    background-color: #CF6666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ 
+ #spa-service-bottom-nav ol {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+ }
+ 
+ #spa-service-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+ }
+
+ #spa-service-nav {
+    padding: 15px 0;
+ }
+ 
+ #spa-service-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ #spa-service-nav ul li {
+    margin-bottom: 15px;
+ }
+ 
+ #spa-service-nav ul li a {
+   color: inherit;
+   padding: 5px;
+   font-size: 14px;
+ }
+ 
+ #spa-service-nav ul li a.selected {
+    border-left: #9a2018 solid 5px;
+ }
+ 
+ /* ---Spa Feature--- */
+ 
+ #spa-feature-hero-con {
+    background: url(../images/mob_sp_sect-01.jpg) no-repeat;
+    height: 195px;
+ }
+ 
+ #spa-feature-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #spa-feature-text {
+    padding-bottom: 30px;
+ }
+ 
+ #spa-feature-text, p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 22px;
+ }
+ 
+ #spa-feature-text-column2 {
+    font-style: italic;
+ }
+
+.spa-feature-title{
+    color: #9a2018;
+ }
+
+/* ---Policy and Information */
+#policy-hero-con {
+    background: url(../images/mob_sp_sect-02.jpg) no-repeat;
+    height: 195px;
+}
+ 
+ #policy-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #policy-text, p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 22px;
+ }
+
+ #policy-text-column2{
+    margin-top: 10px;
+ }
+ 
+ #policy-column2 {
+    font-style: italic;
+ }
+
+.policy-title{
+    color: #9a2018;
+ }
+
+ #policy-text-column1 a {
+    color: inherit;
+    font-size: 14px;
+  }
+
+  #policy-text-column2 a {
+    color: inherit;
+    font-size: 14px;
+  }
+
+  #policy-con{
+   margin-bottom: 30px;
+  }
+
+/* ---Testmonail--- */
+
+#testimonail{
+    background-color: #EEEEEE;
+    height: 210px;
+   padding: 20px 0px;
+}
+
+#testimonail img {
+ width: 75px;
+ height: 85px;
+}
+
+.testimonail-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    gap: 12px;
+
+}
+
+.align-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    width: 250px;
+}
+
+.testimonail-text{
+    font-size: 12px;
+}
