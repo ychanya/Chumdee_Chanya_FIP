@@ -1,0 +1,154 @@
+/* ---General Styles--- */
+
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+html {
+   scroll-behavior: smooth;
+}
+
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ /* ---Main Nav--- */
+  
+ #main-nav label img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    cursor: pointer;
+ }
+ 
+ #main-nav input, #burger-con{
+    display: none;
+ }
+ 
+ #main-nav input:checked ~ #burger-con{
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child{
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child{
+    margin-bottom: 40px;
+ }
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+/* ---Book Now--- */
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+   background: #fff;
+   padding: 10px 15px;
+   font-size: 14px;
+}
+
+.hero-img-h2 span, .hero-img-h3 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+ /* ---Footer--- */
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 40px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
+
+ /* ---Utility--- */
+
+ .cursor-pointer{
+   cursor: pointer;
+ }

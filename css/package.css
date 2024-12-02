@@ -1,0 +1,115 @@
+ /* ---Main Hero Image--- */
+ 
+ #hero-package {
+   background: url(../images/mob_pk_hero-01.jpg) no-repeat;
+   height: 200px;
+}
+
+ /* ---Package--- */
+#hero-summary{
+   align-items: center;
+}
+
+.package-header {
+   font-size: 16px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.card-wrapper {
+   background-color: #EEEEEE;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   width: 380px;
+   height: 210px;
+   margin-bottom: 20px;
+}
+
+.card-details{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 15px 0 15px;
+}
+
+.package-image {
+   width: 380px;
+   height: 160px;
+   border-radius: 5px 5px 0 0;
+}
+
+.package-detail {
+   font-size: 14px;
+}
+
+.package-list p {
+   border-bottom: 1px dashed #505050;
+   font-size: 14px;
+   
+}
+
+#hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+
+ } 
+
+/* ---Rental Equipment--- */
+
+#rental-package {
+   background: url(../images/mob_pk_sect-01.jpg) no-repeat;
+   height: 200px;
+   margin-top: 20px;
+}
+
+#rental-hero-heading-box {
+   align-self: end;
+}
+
+summary {
+   background-color: #efefef;
+   padding: 10px;
+   font-size: 20px;
+}
+
+ul li {
+   list-style: none;
+}
+
+ul {
+   padding: 0px;
+}
+
+.dropdown-title {
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.dropdown-description {
+   margin-top: 8px;
+}
+
+details li {
+   border-bottom: 1px solid #505050;
+   padding: 6px;
+   font-size: 14px;
+ }
+
+details p{
+   font-size: 14px;
+}
+
+ #details-con{
+   margin-bottom: 20px;
+}
+
+#extra-fee{
+   margin-top: 20px;
+   font-size: 14px;
+   margin-bottom: 60px;
+}
+
+.extra-text-heading {
+   color: #9a2018;
+}
